@@ -117,5 +117,3 @@ add constraint fk_winner_id foreign key (winner_team_id)
 references shema.team(id)
 on update cascade
 on delete restrict;
-
---УРА! Я сделаль!
